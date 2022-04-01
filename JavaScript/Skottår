@@ -1,0 +1,7 @@
+let årtal = prompt('Ange årtal');
+
+if (årtal % 4 != 0){
+    console.log(`År '${årtal} 'är inte ett skottår`)
+} else {
+    console.log(`År '${årtal} 'är ett skottår`)
+};

@@ -1,0 +1,11 @@
+let pengar = prompt('Hur mycket pengar har du?')
+
+if (pengar >= 1000){
+    console.log('Du har råd med ett guldsmycke')
+} else if (pengar >= 500){
+    console.log('Du har råd med ett silversmycke')
+} else if (pengar >= 200){
+    console.log('Du har råd med ett järnsmycke')
+} else {
+    console.log('Du har inte råd med ett smycke')
+}
